@@ -505,7 +505,7 @@ h2 {
   color: #444444; }
 
 #about {
-  margin-top: 390px;
+  margin-top: 350px;
   margin-left: 150px;
   width: 600px; }
   #about p {
@@ -625,5 +625,21 @@ a {
   .features_info {
     padding-left: 150px; } }
 @media only screen and (max-width: 479px) {
+  .features_info {
+    padding-left: 90px; } }
+@media only screen and (max-width: 335px) {
+  #requestform {
+    top: 78px;
+    right: 0;
+    /*width: 100%;*/ }
+    #requestform h5 {
+      margin: 15px 0 15px 55px; }
+    #requestform p {
+      padding-left: 55px; }
+
+  fieldset {
+    border: none;
+    margin: 0 0 10px 43px; }
+
   .features_info {
     padding-left: 90px; } }
