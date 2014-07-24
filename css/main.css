@@ -619,6 +619,11 @@ a {
   fieldset {
     border: none;
     margin: 0 0 10px 30px; } }
+@media only screen and (max-width: 427px) {
+  #aof_header {
+    margin-left: 40px; }
+    #aof_header p {
+      margin-left: 105px; } }
 @media only screen and (max-width: 405px) {
   #degree {
     top: 100px; }
