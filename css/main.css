@@ -623,6 +623,18 @@ a {
 
   #aof_header {
     margin-left: 15px; } }
+@media only screen and (max-width: 378px) {
+  #requestform p {
+    padding-left: 10px; }
+
+  input {
+    width: 340px; }
+
+  .styled_select select, #submit {
+    width: 348px; }
+
+  #degree {
+    left: 120px; } }
 @media only screen and (max-width: 342px) {
   #header-nav img {
     margin-left: 70px; }
@@ -636,7 +648,7 @@ a {
 
   #degree {
     top: 90px;
-    left: 100px; }
+    left: 90px; }
 
   input {
     width: 300px; }
