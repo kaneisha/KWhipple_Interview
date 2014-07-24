@@ -874,6 +874,11 @@ a{
 }
 
 @media only screen and (max-width: 378px) {
+	#header-nav{
+		img{
+			margin-left: 115px;
+		}
+	}
 	#requestform{
 		p{
 			padding-left: 10px;
@@ -889,6 +894,30 @@ a{
 
 	#degree{
 		left: 120px;
+	}
+}
+
+@media only screen and (max-width: 356px) {
+	#header-nav{
+		img{
+			margin-left: 105px;
+		}
+	}
+	#requestform{
+		p{
+			width: 320px;
+		}
+	}
+	input{
+		width: 330px;
+	}
+
+	.styled_select select, #submit{
+		width: 334px;
+	}
+
+	#degree{
+		left: 110px;
 	}
 }
 
