@@ -43,13 +43,21 @@
 
     $(".demo").owlCarousel({
 
-    //autoPlay: 3000, //Set AutoPlay to 3 seconds
+    autoPlay: 3000, //Set AutoPlay to 3 seconds
 
     // $(this).owl.goTo(3);
 
     items : 2,
     itemsDesktop : [1199,2],
     itemsDesktopSmall : [979,2]
+
+    // $(".next").click(function(){
+    //   owl.trigger('owl.next');
+    // })
+
+    // $(".prev").click(function(){
+    //   owl.trigger('owl.prev');
+    // })
 
     });
 
