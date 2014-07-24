@@ -1,14 +1,15 @@
 (function(){
 
-	$(document).ready(function(){
-	// Set the interval to be 5 seconds
-	var t = setInterval(function(){
-		$(".carousel ul").animate({marginLeft:-800},1000,function(){
-			$(this).find("li:last").after($(this).find("li:first"));
-			$(this).css({marginLeft:0});
-		})
-	},5000);
-});
+// 	$(document).ready(function(){
+
+// 	// Set the interval to be 5 seconds
+// 	var t = setInterval(function(){
+// 		$(".carousel ul").animate({marginLeft:-800},1000,function(){
+// 			$(this).find("li:last").after($(this).find("li:first"));
+// 			$(this).css({marginLeft:0});
+// 		})
+// 	},5000);
+// });
 
 /*$(function() {
   var currentIndex = 0,
@@ -37,6 +38,31 @@
     return false;
   });
 });*/
+
+// http://sorgalla.com/jcarousel/docs/cookbook/responsive-carousel.html
+
+// jQuery(document).ready(function ($) {
+//         var options = { $AutoPlay: true };
+//         var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+// });
+
+    $(document).ready(function() {
+
+    $(".demo").owlCarousel({
+
+    // autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+    // $(this).owl.goTo(3);
+
+    items : 2,
+    itemsDesktop : [1199,2],
+    itemsDesktopSmall : [979,2]
+
+    });
+
+    });
+
+
 
 
 })();

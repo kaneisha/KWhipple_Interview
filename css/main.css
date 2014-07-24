@@ -505,7 +505,7 @@ h2 {
   color: #444444; }
 
 #about {
-  margin-top: 390px;
+  margin-top: 350px;
   margin-left: 150px;
   width: 600px; }
   #about p {
@@ -528,7 +528,7 @@ h2 {
   width: 390px; }
 
 #linetwo {
-  margin: -12px 0 20px 585px; }
+  margin: -28px 0 20px 583px; }
 
 #features {
   background-color: #d4d4d4;
@@ -556,31 +556,33 @@ h2 {
   #experience h4 {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
     letter-spacing: 1px; }
   #experience h3 {
     font-family: 'Open Sans', sans-serif;
     color: #444444;
-    font-size: 25px; }
+    font-size: 25px;
+    margin-bottom: 0; }
 
 .info {
   font-family: Arial, sans-serif;
   color: #7d7d7d;
-  padding-bottom: 15px; }
+  /*padding-bottom: 15px;*/ }
 
 #launchbox {
   font-weight: bold;
   color: #444444;
   font-family: 'Open Sans', sans-serif;
-  padding-bottom: 15px; }
+  margin: 0;
+  /*padding-bottom: 15px;*/ }
 
 .carousel {
   width: 800px;
   overflow: hidden;
   /*position: relative;*/ }
   .carousel ul {
-    width: 1920px;
+    width: 2920px;
     padding: 0;
     margin: 0; }
     .carousel ul li {
@@ -590,6 +592,18 @@ h2 {
       list-style: none;
       float: left;
       /*position: absolute;*/ }
+
+.item {
+  margin: 3px;
+  /*margin: 3px 3px 3px 150px;*/ }
+
+.item img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.ex_image {
+  margin-left: 150px; }
 
 /*.carousel {
   position: relative;
@@ -625,5 +639,28 @@ a {
   .features_info {
     padding-left: 150px; } }
 @media only screen and (max-width: 479px) {
+  .features_info {
+    padding-left: 90px; } }
+@media only screen and (max-width: 335px) {
+  #requestform {
+    top: 78px;
+    right: 0;
+    /*width: 100%;*/ }
+    #requestform h5 {
+      margin: 15px 0 15px 55px; }
+    #requestform p {
+      padding-left: 55px; }
+
+  fieldset {
+    border: none;
+    margin: 0 0 10px 43px; }
+
+  #about {
+    margin-top: 750px;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 5px;
+    width: 300px; }
+
   .features_info {
     padding-left: 90px; } }
