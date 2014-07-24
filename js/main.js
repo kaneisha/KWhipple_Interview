@@ -43,7 +43,7 @@
 
     $(".demo").owlCarousel({
 
-    autoPlay: 3000, //Set AutoPlay to 3 seconds
+    //autoPlay: 3000, //Set AutoPlay to 3 seconds
 
     // $(this).owl.goTo(3);
 
