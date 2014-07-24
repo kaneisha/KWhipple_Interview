@@ -7,6 +7,9 @@ header {
   height: 60px;
   background-color: #333327; }
 
+#header-nav img {
+  margin-left: 130px; }
+
 #feature img {
   width: 100%;
   /*clear: both;*/
@@ -465,6 +468,93 @@ a {
 
   .ex_info {
     margin-left: 50px; } }
+@media only screen and (max-width: 583px) {
+  #requestform {
+    /*top: -515px;*/
+    top: -40px;
+    right: 0;
+    position: relative;
+    width: 100%; }
+
+  #degree {
+    top: 140px; }
+
+  fieldset {
+    border: none;
+    margin: 0 0 10px 30px; }
+
+  #aof_header {
+    margin-left: 10px; }
+    #aof_header p {
+      margin-left: 220px; }
+
+  #linetwo {
+    margin-left: 360px; } }
+@media only screen and (max-width: 575px) {
+  #requestform {
+    /*top: -515px;*/
+    top: -40px;
+    right: 0;
+    position: relative;
+    width: 100%; }
+
+  #degree {
+    top: 140px; }
+
+  fieldset {
+    border: none;
+    margin: 0 0 10px 30px; }
+
+  #aof_header {
+    margin-left: 90px; }
+    #aof_header p {
+      margin-left: 115px; }
+
+  .line {
+    width: 20%; }
+
+  #linetwo {
+    margin-left: 270px; } }
+@media only screen and (max-width: 542px) {
+  #requestform p {
+    padding-left: 30px; }
+
+  fieldset {
+    border: none;
+    margin: 0 0 10px 20px; }
+
+  #aof_header {
+    margin-left: 90px; }
+    #aof_header p {
+      margin-left: 115px; }
+
+  .line {
+    width: 20%; }
+
+  #linetwo {
+    margin-left: 270px; } }
+@media only screen and (max-width: 575px) {
+  #about {
+    width: 400px; }
+
+  #requestform p {
+    width: 450px;
+    padding-left: 20px; }
+
+  input {
+    width: 450px; }
+
+  .styled_select select, #submit {
+    width: 455px; } }
+@media only screen and (max-width: 482px) {
+  #requestform {
+    top: -65px; }
+
+  #degree {
+    top: 120px; }
+
+  #aof_header {
+    margin-left: 50px; } }
 @media only screen and (max-width: 479px) {
   .features_info {
     padding-left: 90px; } }
@@ -512,18 +602,6 @@ a {
   .features_info {
     padding-left: 90px; }
 
-  #aof_header {
-    margin-left: 0; }
-    #aof_header p {
-      margin-left: 130px; }
-
-  .line {
-    width: 25%;
-    margin-left: 15px; }
-
-  #linetwo {
-    margin-left: 283px; }
-
   .ex_image {
     margin-left: -80px; }
 
@@ -533,26 +611,54 @@ a {
   fieldset {
     border: none;
     margin: 0 0 10px 30px; } }
-@media only screen and (max-width: 335px) {
+@media only screen and (max-width: 405px) {
+  #degree {
+    top: 100px; }
+
   #requestform {
-    top: 78px;
-    right: 0;
-    /*width: 100%;*/ }
-    #requestform h5 {
-      margin: 15px 0 15px 55px; }
-    #requestform p {
-      padding-left: 55px; }
+    top: -30px; }
 
   fieldset {
-    border: none;
-    margin: 0 0 10px 43px; }
+    margin: 0 0 10px 10px; }
+
+  #aof_header {
+    margin-left: 15px; } }
+@media only screen and (max-width: 342px) {
+  #header-nav img {
+    margin-left: 70px; }
+
+  #requestform {
+    top: -55px;
+    right: 0; }
+    #requestform p {
+      width: 290px;
+      padding-left: 10px; }
+
+  #degree {
+    top: 90px;
+    left: 100px; }
+
+  input {
+    width: 300px; }
+
+  .styled_select select, #submit {
+    width: 304px; }
 
   #about {
-    margin-top: 750px;
+    margin-top: 150px;
     margin-left: 0;
     padding-left: 10px;
     padding-right: 5px;
     width: 300px; }
+
+  #aof_header {
+    padding-left: 5px;
+    margin-left: 0; }
+    #aof_header p {
+      margin-left: 95px; }
+
+  #linetwo {
+    margin-left: 260px; }
 
   .features_info {
     padding-left: 90px; } }
