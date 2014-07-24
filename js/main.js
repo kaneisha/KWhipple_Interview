@@ -39,18 +39,11 @@
   });
 });*/
 
-// http://sorgalla.com/jcarousel/docs/cookbook/responsive-carousel.html
-
-// jQuery(document).ready(function ($) {
-//         var options = { $AutoPlay: true };
-//         var jssor_slider1 = new $JssorSlider$('slider1_container', options);
-// });
-
     $(document).ready(function() {
 
     $(".demo").owlCarousel({
 
-    // autoPlay: 3000, //Set AutoPlay to 3 seconds
+    autoPlay: 3000, //Set AutoPlay to 3 seconds
 
     // $(this).owl.goTo(3);
 
