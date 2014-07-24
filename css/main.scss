@@ -632,7 +632,7 @@ h2{
 }
 
 #linetwo{
-	margin: -12px 0 20px 585px;
+	margin: -28px 0 20px 583px;
 }
 
 #features{
@@ -668,8 +668,8 @@ h2{
 	h4{
 		color: #fff;
 		font-family: 'Open Sans', sans-serif;
-		padding-top: 20px;
-		padding-bottom: 20px;
+		/*padding-top: 20px;*/
+		/*padding-bottom: 20px;*/
 		letter-spacing: 1px;
 	}
 
@@ -677,6 +677,7 @@ h2{
 		font-family: 'Open Sans', sans-serif;
 		color: $grey;
 		font-size: 25px;
+		margin-bottom: 0;
 	}
 
 }
@@ -684,14 +685,15 @@ h2{
 .info{
 	font-family: Arial, sans-serif;
 	color: $tgrey;
-	padding-bottom: 15px;
+	/*padding-bottom: 15px;*/
 }
 
 #launchbox{
 	font-weight: bold;
 	color: $grey;
 	font-family: 'Open Sans', sans-serif;
-	padding-bottom: 15px;
+	margin: 0;
+	/*padding-bottom: 15px;*/
 }
 
 .carousel{
@@ -700,7 +702,7 @@ h2{
 	/*position: relative;*/
 
 	ul{
-		width: 1920px;
+		width: 2920px;
 		padding: 0;
 		margin: 0;
 
@@ -713,6 +715,24 @@ h2{
 			/*position: absolute;*/
 		}
 	}
+}
+
+
+
+
+
+    .item{
+    margin: 3px;
+    /*margin: 3px 3px 3px 150px;*/
+    }
+    .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+
+.ex_image{
+	margin-left: 150px;
 }
 
 /*.carousel {
@@ -784,10 +804,19 @@ a{
 	}
 
 	fieldset{
-	border: none;
-	margin: 0 0 10px 43px;
-}
+		border: none;
+		margin: 0 0 10px 43px;
+	}
+
+	#about{
+		margin-top: 750px;
+		margin-left: 0;
+		padding-left: 10px;
+		padding-right: 5px;
+		width: 300px;
+	}
+
 	.features_info{
-	padding-left: 90px;
-}
+		padding-left: 90px;
+	}
 }
