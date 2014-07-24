@@ -382,6 +382,14 @@ a {
 
   .ex_info {
     margin-left: 40px; } }
+@media only screen and (max-width: 704px) {
+  #aof_header {
+    margin-top: 120px; }
+    #aof_header p {
+      margin-left: 265px; }
+
+  #linetwo {
+    margin-left: 420px; } }
 @media only screen and (max-width: 670px) {
   #requestform {
     right: 0; }
