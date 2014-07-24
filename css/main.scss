@@ -531,6 +531,20 @@ a{
 	}
 }
 
+@media only screen and (max-width: 704px) {
+	#aof_header{
+		margin-top: 120px;
+
+		p{
+			margin-left: 265px;
+		}
+	}
+
+	#linetwo{
+		margin-left: 420px;
+	}
+}
+
 @media only screen and (max-width: 670px) {
 	#requestform{
 		right: 0;
@@ -853,6 +867,16 @@ a{
 	fieldset{
 		border: none;
 		margin: 0 0 10px 30px;
+	}
+}
+
+@media only screen and (max-width: 427px) {
+	#aof_header{
+		margin-left: 40px;
+
+		p{
+			margin-left: 105px;
+		}
 	}
 }
 
