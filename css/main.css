@@ -1,8 +1,8 @@
+/*-----CSS RESET--------*/
 html, body, div, form, fieldset, legend, label, h1, h2, h3, h4, h5, h6, p, ul, dl, dt, dd, figure, figcaption {
   margin: 0;
   padding: 0; }
 
-/*--------------------- CSS Reset --------------------*/
 header {
   height: 60px;
   background-color: #333327; }
@@ -10,6 +10,7 @@ header {
 #header-nav img {
   margin-left: 130px; }
 
+/*------------- Feature Content --------------*/
 #feature img {
   width: 100%;
   /*clear: both;*/
@@ -146,8 +147,7 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     color: #444444;
     font-size: 25px;
-    margin-bottom: 20px;
-    /*margin-top: 15px;*/ }
+    margin-bottom: 20px; }
 
 .info {
   font-family: Arial, sans-serif;
@@ -160,22 +160,6 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   margin-top: -20px;
   padding-bottom: 15px; }
-
-.carousel {
-  width: 800px;
-  overflow: hidden;
-  /*position: relative;*/ }
-  .carousel ul {
-    width: 2920px;
-    padding: 0;
-    margin: 0; }
-    .carousel ul li {
-      width: 480px;
-      /*text-align: center;*/
-      /*height: 280px;*/
-      list-style: none;
-      float: left;
-      /*position: absolute;*/ }
 
 .item {
   margin: 3px;
@@ -192,18 +176,6 @@ h2 {
 .ex_info {
   margin-left: 70px; }
 
-/*.carousel {
-  position: relative;
-  list-style: none;
-}
-
-.carousel > li {
-  position: absolute;
-}
-
-.carousel > li:not(.active) {
-  display: none;
-}*/
 footer {
   background-color: #333327;
   color: #7d7d7d;
@@ -229,14 +201,7 @@ a {
   font-family: Arial, sans-serif;
   -webkit-appearance: none; }
 
-/*.styled-select {
-   width: 240px;
-   height: 34px;
-   overflow: hidden;
-   background: url(new_arrow.png) no-repeat right #ddd;
-   border: 1px solid #ccc;
-   }*/
-/*--------------------- Media Queries --------------------------*/
+/*--------------------------------------- Media Queries ------------------------------------*/
 @media only screen and (max-width: 1255px) {
   #degree {
     top: 230px; }
@@ -464,10 +429,6 @@ a {
     #aof_header p {
       margin-left: 243px; }
 
-  /*	.line{
-  		width: 25%;
-  		margin-left: 15px;
-  	}*/
   #linetwo {
     margin-left: 400px; }
 

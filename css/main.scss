@@ -3,17 +3,11 @@ $grey: #444444;
 $tgrey: #7d7d7d;
 $orange: #f16020;
 
+/*-----CSS RESET--------*/
 html,body,div,form,fieldset,legend,label,h1,h2,h3,h4,h5,h6,p,ul,dl,dt,dd,figure,figcaption{
         margin: 0;
         padding: 0;
 }
-
-
-
-
-
-
-/*--------------------- CSS Reset --------------------*/
 
 header{
 	height: 60px;
@@ -25,6 +19,9 @@ header{
 		margin-left:130px;
 	}
 }
+
+
+/*------------- Feature Content --------------*/
 
 #feature{
 	img{
@@ -196,7 +193,6 @@ h2{
 		color: $grey;
 		font-size: 25px;
 		margin-bottom: 20px;
-		/*margin-top: 15px;*/
 	}
 
 }
@@ -215,40 +211,17 @@ h2{
 	padding-bottom: 15px;
 }
 
-.carousel{
-	width: 800px;
-	overflow:hidden;
-	/*position: relative;*/
 
-	ul{
-		width: 2920px;
-		padding: 0;
-		margin: 0;
-
-		li{
-			width:480px;
-			/*text-align: center;*/
-			/*height: 280px;*/
-			list-style: none;
-			float: left;
-			/*position: absolute;*/
-		}
-	}
-}
-
-
-
-
-
-    .item{
+.item{
     margin: 3px;
     margin: 3px 3px 3px 150px;
-    }
-    .item img{
+}
+
+.item img{
     display: block;
     width: 100%;
     height: auto;
-    }
+}
 
 .ex_image{
 	margin-left: 100px;
@@ -257,21 +230,6 @@ h2{
 .ex_info{
 	margin-left: 70px;
 }
-
-/*.carousel {
-  position: relative;
-  list-style: none;
-}
-
-.carousel > li {
-  position: absolute;
-}
-
-.carousel > li:not(.active) {
-  display: none;
-}*/
-
-
 
 
 footer{
@@ -304,15 +262,7 @@ a{
    -webkit-appearance: none;
    }
 
-/*.styled-select {
-   width: 240px;
-   height: 34px;
-   overflow: hidden;
-   background: url(new_arrow.png) no-repeat right #ddd;
-   border: 1px solid #ccc;
-   }*/
-
-/*--------------------- Media Queries --------------------------*/
+/*--------------------------------------- Media Queries ------------------------------------*/
 @media only screen and (max-width: 1255px) {
 	#degree{
 		top: 230px;
@@ -642,11 +592,6 @@ a{
 			margin-left: 243px;
 		}
 	}
-
-/*	.line{
-		width: 25%;
-		margin-left: 15px;
-	}*/
 
 	#linetwo{
 		margin-left: 400px;
