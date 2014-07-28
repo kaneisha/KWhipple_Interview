@@ -607,6 +607,24 @@ a{
 	}
 }
 
+@media only screen and (max-width: 600px) {
+	#aof_header{
+		margin-left: 50px;
+
+		p{
+			margin-left: 180px;
+		}
+	}
+
+	.line{
+		width: 25%;
+	}
+
+	#linetwo{
+		margin-left: 350px;
+	}
+}
+
 @media only screen and (max-width: 583px) {
 	#requestform{
 		/*top: -515px;*/
@@ -732,13 +750,6 @@ a{
 		top: -70px;
 	}
 
-/*	input{
-		width: 450px;
-	}
-
-	.styled_select select, #submit{
-		width: 455px;
-	}*/
 }
 
 @media only screen and (max-width: 482px) {
@@ -857,6 +868,12 @@ a{
 
 	#aof_header{
 		margin-left: 15px;
+	}
+}
+
+@media only screen and (max-width: 384px) {
+	#degree{
+		left: 130px;
 	}
 }
 
