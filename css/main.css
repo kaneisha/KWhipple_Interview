@@ -378,6 +378,9 @@ a {
 
   .ex_image {
     margin-top: 100px; } }
+@media only screen and (max-width: 628px) {
+  #linetwo {
+    margin-left: 390px; } }
 @media only screen and (max-width: 620px) {
   #requestform {
     /*top: -515px;*/
@@ -437,7 +440,7 @@ a {
 
   .ex_info {
     margin-left: 50px; } }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 615px) {
   #aof_header {
     margin-left: 50px; }
     #aof_header p {
@@ -526,12 +529,18 @@ a {
 
   .styled_select select, #submit {
     width: 455px; } }
-@media only screen and (max-width: 507px) {
+@media only screen and (max-width: 509px) {
   #degree {
     top: 110px; }
 
   #requestform {
-    top: -70px; } }
+    top: -70px; }
+
+  #aof_header p {
+    margin-left: 105px; }
+
+  #linetwo {
+    margin-left: 260px; } }
 @media only screen and (max-width: 482px) {
   #requestform {
     top: -65px; }
@@ -647,6 +656,21 @@ a {
 
   #degree {
     left: 110px; } }
+@media only screen and (max-width: 346px) {
+  #degree {
+    left: 100px; }
+
+  input {
+    width: 320px; }
+
+  .styled_select select, #submit {
+    width: 324px; }
+
+  #aof_header p {
+    margin-left: 90px; }
+
+  #linetwo {
+    margin-left: 250px; } }
 @media only screen and (max-width: 342px) {
   #header-nav img {
     margin-left: 70px; }

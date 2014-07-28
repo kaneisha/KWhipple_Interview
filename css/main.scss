@@ -528,6 +528,12 @@ a{
 	}
 }
 
+@media only screen and (max-width: 628px){
+	#linetwo{
+		margin-left: 390px;
+	}
+}
+
 @media only screen and (max-width: 620px) {
 	#requestform{
 		/*top: -515px;*/
@@ -607,7 +613,7 @@ a{
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 615px){
 	#aof_header{
 		margin-left: 50px;
 
@@ -741,13 +747,23 @@ a{
 	}
 }
 
-@media only screen and (max-width: 507px) {
+@media only screen and (max-width: 509px) {
 	#degree{
 		top: 110px;
 	}
 
 	#requestform{
 		top: -70px;
+	}
+
+	#aof_header{
+		p{
+			margin-left: 105px;
+		}
+	}
+
+	#linetwo{
+		margin-left: 260px;
 	}
 
 }
@@ -922,6 +938,30 @@ a{
 
 	#degree{
 		left: 110px;
+	}
+}
+
+@media only screen and (max-width: 346px){
+	#degree{
+		left: 100px;
+	}
+
+	input{
+		width: 320px;
+	}
+
+	.styled_select select, #submit{
+		width: 324px;
+	}
+
+	#aof_header{
+		p{
+			margin-left: 90px;
+		}
+	}
+
+	#linetwo{
+		margin-left: 250px;
 	}
 }
 
