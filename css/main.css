@@ -515,6 +515,20 @@ a {
 
   .styled_select select, #submit {
     width: 455px; } }
+@media only screen and (max-width: 507px) {
+  #degree {
+    top: 110px; }
+
+  #requestform {
+    top: -70px; }
+
+  /*	input{
+  		width: 450px;
+  	}
+  
+  	.styled_select select, #submit{
+  		width: 455px;
+  	}*/ }
 @media only screen and (max-width: 482px) {
   #requestform {
     top: -65px; }
@@ -612,7 +626,7 @@ a {
 
   #degree {
     left: 120px; } }
-@media only screen and (max-width: 356px) {
+@media only screen and (max-width: 359px) {
   #header-nav img {
     margin-left: 105px; }
 
